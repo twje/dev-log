@@ -46,6 +46,10 @@ jobs:
         run: |
           pelican -s publishconf.py
 
+      - name: Debug output directory
+        run: |
+          ls -R ./output
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
