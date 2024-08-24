@@ -11,6 +11,7 @@ from pelicanconf import *
 SITEURL = "https://github.com/twje/dev-log"
 RELATIVE_URLS = False
 SITEURL = '/dev-log'
+PATH = "content"
 
 FEED_ALL_ATOM = "feeds/all.atom.xml"
 CATEGORY_FEED_ATOM = "feeds/{slug}.atom.xml"
